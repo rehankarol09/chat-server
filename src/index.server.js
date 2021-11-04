@@ -61,7 +61,7 @@ app.use(cors());
 app.use(router);
 
 
-server.listen(Port,()=>{
+server.listen(process.env.PORT,()=>{
     console.log(`Server started on ${Port}`);
 })
 
